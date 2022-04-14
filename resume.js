@@ -158,14 +158,14 @@ window.addEventListener("scroll",function(){
 	for(var i=0; i<sections.length; i++){
 		if(window.pageYOffset==0){
 			removeActive();
-			navItems[0].classList.add("active");
+			// navItems[0].classList.add("active");
 		} else if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight){
 			removeActive();
-			navItems[sections.length-1].classList.add("active");
+			// navItems[sections.length-1].classList.add("active");
 		}
 		if(window.pageYOffset>=sections[i].offsetTop+sections[i].offsetHeight-navbar.offsetHeight){
 			removeActive();
-			navItems[i+1].classList.add('active');
+			// navItems[i+1].classList.add('active');
 		}
 	}
 })
