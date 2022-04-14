@@ -30,7 +30,7 @@
            "From vanilla javascript, Web Components and UI/UX animations to React.JS, Node.JS."
         ],
         "zh": [
-            "玉婷工作主要為前端網頁部份。熟悉HTML，CSS/SCSS，JavaScript, React及各框架，接API及後端技術node。",
+            "玉婷工作主要為前端網頁部份。熟悉HTML，CSS/SCSS，JavaScript, React.js及各框架，接API及後端技術Node.js。",
             "因為是自學，所以遇到新的網頁效果、新的框架、新的技術等都可以很快的自行在網路上找到資源，解決問題。"
         ]
     },
@@ -316,8 +316,7 @@
                                 "game and score sheet function"
                             ],
                             "skillUsed":[
-                                "React",
-                                "HTML", "SASS", "JavaScript",
+                                "HTML", "SASS", "React.js",
                                 "PokéAPI"
                             ]
                         },
@@ -330,9 +329,47 @@
                                 "用SASS"
                             ],
                             "skillUsed":[
-                                "React",
-                                "HTML", "SASS", "JavaScript",
+                                "HTML", "SASS", "React.js",
                                 "PokéAPI"
+                            ]
+                        }
+                }
+            ]
+        },
+        {
+            "year": {
+                "en": "Year 2022",
+                "zh": "2022年作品"
+            },
+            "cards": [
+                {
+                    "img": "img/attendanceapp.jpg",
+                    "link": "https://attendanceapp.tolisacoding.work",
+                    "github": "https://github.com/lisawcoding/pokegame",
+                    "en": 
+                        {   
+                            "title": "Attendance APP",
+                            "des": [
+                                "data for attendance using face detect/recognition",
+                                "dashboard for Create, Read, Update, Delete employee profile and attendance records"
+                            ],
+                            "skillUsed":[
+                                "HTML", "SASS", "React.js",
+                                "MongoDB, Express, React.js, Node.js ",
+                                "Google Compute Engine, Ubuntu, Nginx"
+                            ]
+                        },
+                    "zh":
+                        {
+                            "title": "臉部辨視打卡系統及後台管理介面",
+                            "des": [
+                                "前台臉部偵測上下班打卡系統",
+                                "後台CRUD員工資料及出勤記錄"
+                            ],
+                            "skillUsed":[
+                                "HTML", "SASS", "React.js",
+                                "MongoDB, Express, React.js, Node.js ",
+                                "Google Compute Engine, Ubuntu, Nginx"
                             ]
                         }
                 }
