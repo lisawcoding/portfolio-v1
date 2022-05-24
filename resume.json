@@ -237,31 +237,7 @@
                 "zh": "2019年作品"
             },
             "cards": [
-                {
-                    "img": "img/api.png",
-                    "link": "https://lisawcoding.github.io/api/",
-                    "github": "https://github.com/lisawcoding/api",
-                    "en": 
-                        {
-                            "title": "Central Weather Bureau api",
-                            "des": [
-                                "fetch to get the Central Weather Bureau api"
-                            ],
-                            "skillUsed":[
-                                "HTML", "CSS", "JavaScript"
-                            ]
-                        },
-                    "zh":
-                        {
-                            "title": "氣象局API網站",
-                            "des": [
-                                "用fetch連中央氣象局的api資料"
-                            ],
-                            "skillUsed": [
-                                "HTML", "CSS", "JavaScript"
-                            ]
-                        }
-                },
+
                 {
                     "img": "img/ecommerce.jpg",
                     "link": "https://lisawcoding.github.io/ecommerce/",
