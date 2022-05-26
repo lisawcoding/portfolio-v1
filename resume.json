@@ -331,7 +331,8 @@
                             ],
                             "skillUsed":[
                                 "MERN Stack",
-                                "Google Compute Engine, Ubuntu, Nginx"
+                                "GCE", "Ubuntu", "Nginx", "jwt",
+                                "Face-api.js", "nodemailer"
                             ]
                         },
                     "zh":
@@ -342,9 +343,9 @@
                                 "後台CRUD員工資料及出勤記錄"
                             ],
                             "skillUsed":[
-                                "HTML", "SASS", "React.js",
-                                "MongoDB, Express, React.js, Node.js ",
-                                "Google Compute Engine, Ubuntu, Nginx"
+                                "MongoDB", "Express", "React.js", "Node.js",
+                                "GCE", "Ubuntu", "Nginx", "jwt",
+                                "Face-api.js", "nodemailer"
                             ]
                         }
                 }
