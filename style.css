@@ -13,15 +13,12 @@
 body, html{
     margin: 0;
     padding: 0;
-    /* font-family: 'Roboto Condensed','Microsoft JhengHei', sans-serif; */
-    /* font-family: monospace, sans-serif; */
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;
     scroll-behavior: smooth;
-    /* min-width: 320px;*/
     box-sizing: border-box;
 }
 * {
     color: var(--black);
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
 }
 .container{
     max-width:920px;
@@ -50,10 +47,7 @@ h2 {
 }
 
 p, li, input, textarea {
-    font-family: Lato,Helvetica,Arial,sans-serif;
-    /* color: var(--darkgrey); */
     font-size: 1.15em;
-    /* line-height: 1.7em; */
     padding: 8px 5px;
     margin: 3px;
 }
@@ -76,9 +70,9 @@ li {
     border-color: var(--grey);
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;
     font-weight: 700;
     line-height: 1em;
+    font-size: .9em;
     box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
     opacity: 1;
     position: relative;
@@ -181,7 +175,7 @@ nav li:hover{
     background-attachment: fixed;
 }
 .section{
-    padding: 30px 20px;
+    padding: 6em 0;
 }
 .home {
     height: calc(100vh - 76px);
@@ -267,8 +261,8 @@ h3{
 .cards-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    row-gap: 1em
+    grid-gap: 3.5em;
+    row-gap: 3.7em;
 }
 
 .card .title-bar {
@@ -287,7 +281,7 @@ h3{
 }
 
 .card .top-div {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+    box-shadow: 0 0px 12px 0 var(--darkgrey);
     background-color: var(--white);
 }
 
@@ -307,7 +301,6 @@ h3{
 .card .title {
     text-transform: uppercase;
     padding: unset;
-    /* font-family: MontSerrat, Tahoma, Arial, sans-serif; */
     font-weight: 700;
     line-height: 1em;
     color: var(--darkgrey);
