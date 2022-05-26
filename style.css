@@ -1,6 +1,7 @@
 :root{
-    --brown:#026ccf;
     --brown:#0055a5;
+    --purple: #a50055;
+    --green: #55a500;
     /* --black:#2a2a2a; */
     --bg-color:#e5eef6;
     --black:#2d2f31;
@@ -86,7 +87,7 @@ li {
     align-self: start;
 }
 
-svg, *[src*="svg"] {
+svg, *[src*="svg"], *[data*="svg"] {
     width: 1.2em;
 }
 
@@ -273,18 +274,21 @@ h3{
 .card .title-bar {
     display: flex;
     align-items: center;
-    margin-right: 5em;
+    margin: 0.15em;
+    justify-content: center;
+    position: relative;
 }
 
 .card .button-div {
-    margin-right: .15em;
+    position: absolute;
+    left: 0.15em;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.card svg {
-    fill: var(--darkgrey);
-}
+
 .card .top-div {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .img-wrapper {
@@ -303,9 +307,11 @@ h3{
 .card .title {
     text-transform: uppercase;
     padding: unset;
-    font-family: MontSerrat, Tahoma, Arial, sans-serif;
+    /* font-family: MontSerrat, Tahoma, Arial, sans-serif; */
     font-weight: 700;
     line-height: 1em;
+    color: var(--darkgrey);
+    /* margin: 0 auto; */
 }
 
 .overlay{

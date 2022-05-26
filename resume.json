@@ -1,7 +1,7 @@
 {
 
     "myname": {
-        "en":"Hellon, my name is Yuting Wang",
+        "en":"Hello, my name is Yuting Wang",
         "zh": "王玉婷"
     },
     "intro": {
@@ -244,7 +244,7 @@
                     "github": "https://github.com/lisawcoding/ecommerce",
                     "en": 
                         {   
-                            "title": "e-coomerce/shopping mall",
+                            "title": "e-commerce",
                             "des": [
                                 "has shopping cart function",
                                 "get products detials from JSON file",
@@ -257,7 +257,7 @@
                         },
                     "zh":
                         {
-                            "title": "線上購物網站",
+                            "title": "購物網站",
                             "des": [
                                 "有購物車功能",
                                 "使用json代入產品資料",
@@ -298,7 +298,7 @@
                         },
                     "zh":
                         {
-                            "title": "寶可夢電腦遊戲",
+                            "title": "寶可夢遊戲",
                             "des": [
                                 "連接寶可夢API",
                                 "遊戲及遊戲單",
