@@ -405,10 +405,13 @@ i{
 
 /*contact from^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 .contact .container {
-    display: flex;
+    /* display: flex; */
+    background: #fff;
+    padding: 5em 0;
+    opacity: .7;
 }
 .contact .left-div {
-    width: 35%;
+    /* width: 35%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -688,3 +691,24 @@ textarea:hover, input:hover {
   ::-webkit-scrollbar-thumb:hover {
     background: var(--brown); 
   }
+
+
+  /* temparary remove some stuff */
+section.projects .card:first-child {
+    display: none;
+}
+
+section.contact .container:hover {
+    background-color: #fff;
+    opacity: 1;
+}
+
+section.contact form {
+    display: none;
+}
+
+section.contact .left-div .icons a[href*="line"], 
+section.contact .left-div .icons a[href*="skype"]
+{
+    display: none;
+}
